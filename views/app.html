@@ -1,0 +1,23 @@
+@{meta('Angular.js routing', 'description', 'keywords')}
+
+<!-- /app/css/ -->
+@{ngStyle('app')}
+
+<!-- /app/resources/ -->
+@{ngResource('user')}
+
+<!-- /app/controllers/ -->
+@{ngController('controllers')}
+
+<ul>
+	<li><a href="/">Homepage</a></li>
+	<li><a href="/users/">Users</a></li>
+	<li><a href="/products/">Products</a></li>
+	<li><a href="/admin/">Admin</a></li>
+</ul>
+<br />
+<hr />
+<br />
+<div ng-view>
+	<!-- VIEW -->
+</div>

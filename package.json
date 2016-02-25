@@ -1,0 +1,19 @@
+{
+  "name": "totaljs-authdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlehHappy/oleh_018-totaljs_authorizationDB.git"
+  },
+  "author": "Oleh Daybov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlehHappy/oleh_018-totaljs_authorizationDB/issues"
+  },
+  "homepage": "https://github.com/OlehHappy/oleh_018-totaljs_authorizationDB#readme"
+}
