@@ -10,15 +10,6 @@ app.config(function($routeProvider, $locationProvider) {
 	$routeProvider.when('/', {
 		templateUrl: '/views/home.html',
 		controller: 'HomeCtrl'
-	}).when('/users/', {
-		templateUrl: '/views/users.html',
-		controller: 'UsersCtrl'
-	}).when('/products/', {
-		templateUrl: '/views/products.html',
-		controller: 'ProductsCtrl'
-	}).when('/admin/', {
-		templateUrl: '/views/admin.html',
-		controller: 'AdminCtrl'
 	}).otherwise({ redirectTo: '/' });
 
 });
